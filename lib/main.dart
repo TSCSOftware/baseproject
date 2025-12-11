@@ -45,6 +45,10 @@ class _MyHomePageState extends State<MyHomePage> {
     print("Hello World");
   }
 
+  void rifthy() {
+    print("Rifthy function called");
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
