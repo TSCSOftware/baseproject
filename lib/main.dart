@@ -41,6 +41,12 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+ void bb1() {
+    setState(() {
+      _counter++;
+    });
+  }
+
   void print_fx() {
     print("Hello World");
   }
