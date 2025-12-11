@@ -35,6 +35,12 @@ class MyApp extends StatelessWidget {
   }
 }
 
+# testing addign StringBuffer
+
+void addString(StringBuffer sb, String value) {
+  sb.write(value);
+}
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
