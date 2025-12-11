@@ -41,6 +41,12 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
+  void ddjj() {
+    setState(() {
+      _counter++;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
