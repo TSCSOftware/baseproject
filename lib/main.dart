@@ -41,10 +41,8 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void ddjj() {
-    setState(() {
-      _counter++;
-    });
+  void print_fx() {
+    print("Hello World");
   }
 
   @override
